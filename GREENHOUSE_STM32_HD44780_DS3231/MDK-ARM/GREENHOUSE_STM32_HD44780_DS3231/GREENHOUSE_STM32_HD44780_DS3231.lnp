@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_rcc_ex.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_tim_ex.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_i2c.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_gpio_ex.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_pwr.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_cortex.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_uart.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_gpio.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_flash.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_tim.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_rcc.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_dma.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_flash_ex.o"
+"greenhouse_stm32_hd44780_ds3231\system_stm32f1xx.o"
+"greenhouse_stm32_hd44780_ds3231\startup_stm32f103xb.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_it.o"
+"greenhouse_stm32_hd44780_ds3231\stm32f1xx_hal_msp.o"
+"greenhouse_stm32_hd44780_ds3231\main.o"
+"greenhouse_stm32_hd44780_ds3231\ds3231.o"
+"greenhouse_stm32_hd44780_ds3231\hd44780.o"
+--library_type=microlib --strict --scatter "GREENHOUSE_STM32_HD44780_DS3231\GREENHOUSE_STM32_HD44780_DS3231.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "GREENHOUSE_STM32_HD44780_DS3231.map" -o GREENHOUSE_STM32_HD44780_DS3231\GREENHOUSE_STM32_HD44780_DS3231.axf
